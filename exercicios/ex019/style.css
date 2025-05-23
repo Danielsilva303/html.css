@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+     text-align: left;
+background-image:url(capa-netflix-narcos.webp);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ width: 600px;
+ padding: auto;
+ margin: auto;
+ border-radius: 20px;
+ box-shadow: 10px 10px 10px  rgba(17, 177, 226, 0.288);
+
+}
+ .basico{ color: black;}
+
+h1{ text-align: center;
+ color: rgba(22, 111, 194, 0.692);
+
+
+}
+.destaque {
+    background-color: rgb(188, 188, 216);
+}
+h1#principal{ font-size: 50px;
+color: rgb(226, 22, 53);
+}
+h2 { 
+    text-align: center; 
+     border-radius: 500px;
+    box-shadow:  20px  20px 20px 20px rgba(4, 4, 26, 0.068);
+color: rgb(17, 216, 83);
+
+/* em html é id = em css # (so pode um elemento)
+em html e class = css é ( pode varios elementos ) .*/
+}
+.intermediario { color: rgb(206, 20, 51);}
+p{color: black;
+
+
+}
+h3{border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(75, 41, 14);
+     font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(14, 110, 74);
+
+
+
+
+
+
+
+
+
+}
+
