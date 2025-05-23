@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alinhamento vertical</title>
+  
+      <style>
+     #container { 
+        background-image: url(images/img.04.jpeg);
+        background-size: 100% 100%;
+        position: relative;
+        height: 96vh;
+        padding: 10px;
+       background-color: purple;
+  
+
+     }
+      
+     #conteudo {
+        position: absolute;
+        height: 200px;
+        width: 400px;
+        background-color: yellow;
+
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      /*
+      se a position for absolute a gente pode mecher em left e top e podemos mecher no transform para posicionar uma imagem bem no centro da tela mais isso utilizando os calculos e essas coisa tudo ai de cima */
+     }
+      </style>
+
+
+
+
+</head>
+<body>
+    <section id="container">
+
+        <article id="conteudo">
+
+
+        </article>
+    </section>
+
+     <!-- margin auto so serve pro alinhamento horizontal!-->
+</body>
+</html>
