@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Super Produto | Landing Page</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #2980b9;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+    .hero-text {
+      flex: 1 1 400px;
+      margin-right: 20px;
+    }
+    .hero-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      color: #2980b9;
+    }
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .btn-cta {
+      background: #27ae60;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn-cta:hover {
+      background: #219150;
+    }
+    .hero-image {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+    .hero-image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    section.beneficios {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    section.beneficios h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #2980b9;
+    }
+    .beneficios-lista {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .beneficio-item {
+      background: #ecf0f1;
+      border-radius: 8px;
+      padding: 20px;
+      flex: 1 1 250px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
+    .beneficio-item h3 {
+      margin-bottom: 10px;
+      color: #27ae60;
+    }
+    section.depoimentos {
+      margin-bottom: 40px;
+    }
+    section.depoimentos h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #2980b9;
+    }
+    .depoimento {
+      background: #f0f8ff;
+      padding: 20px;
+      margin: 10px auto;
+      max-width: 600px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+      font-style: italic;
+    }
+    section.preco {
+      background: #27ae60;
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    section.preco h2 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+    section.preco p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2980b9;
+      color: white;
+    }
+    @media(max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+      .hero-text, .hero-image {
+        flex: 1 1 100%;
+        margin: 0 0 20px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Super Produto</h1>
+  </header>
+
+  <div class="container">
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Transforme sua rotina com o Super Produto</h1>
+        <p>O melhor aliado para você aumentar sua produtividade e simplificar tarefas do dia a dia.</p>
+        <a href="#comprar" class="btn-cta">Comprar Agora</a>
+      </div>
+      <div class="hero-image">
+        <img src="alex-knight-2EJCSULRwC8-unsplash.jpg" alt="Imagem do Produto" />
+      </div>
+    </section>
+
+    <section class="beneficios">
+      <h2>Benefícios do Super Produto</h2>
+      <div class="beneficios-lista">
+        <div class="beneficio-item">
+          <h3>Fácil de usar</h3>
+          <p>Interface simples e intuitiva para qualquer usuário.</p>
+        </div>
+        <div class="beneficio-item">
+          <h3>Alta performance</h3>
+          <p>Rápido e eficiente, ideal para demandas diárias.</p>
+        </div>
+        <div class="beneficio-item">
+          <h3>Suporte 24/7</h3>
+          <p>Estamos sempre prontos para ajudar você.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="depoimentos">
+      <h2>O que dizem nossos clientes</h2>
+      <div class="depoimento">"Este produto mudou minha vida! Recomendo demais." – João S.</div>
+      <div class="depoimento">"Muito fácil de usar e super eficiente." – Maria F.</div>
+      <div class="depoimento">"Excelente suporte e produto de qualidade." – Carlos T.</div>
+    </section>
+
+    <section class="preco" id="comprar">
+      <h2>Oferta especial</h2>
+      <p>De R$ 299,00 por apenas <strong>R$ 149,00</strong>!</p>
+      <a href="#" class="btn-cta">Garanta o seu agora</a>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Super Produto - Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>

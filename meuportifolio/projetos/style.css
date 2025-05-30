@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.perfil {
+  text-align: center;
+}
+
+.perfil img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+h2 {
+  color: #2980b9;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill .bar {
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.skill .fill {
+  height: 100%;
+  background: #3498db;
+  border-radius: 20px;
+}
+
+.download {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.download a {
+  text-decoration: none;
+  background: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.download a:hover {
+  background: #1abc9c;
+}
